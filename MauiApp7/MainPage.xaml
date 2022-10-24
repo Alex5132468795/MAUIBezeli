@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp7.MainPage">
+    <Path Stroke="red" StrokeThickness="10" Fill="Red">
+        <Path.Data>
+            <GeometryGroup>
+                <EllipseGeometry Center="35,295" RadiusX="10" RadiusY="10" >
+                    
+                </EllipseGeometry>
+                <PathGeometry>
+
+                    <PathGeometry.Figures>
+                        <PathFigure StartPoint="50, 100">
+                            <PathFigure.Segments>
+                                <PolyBezierSegment Points="50, 20 200, 20 200, 100">
+                                </PolyBezierSegment>
+                                <PolyBezierSegment Points="200,200 0, 200 0, 100">
+                                </PolyBezierSegment>
+                                <PolyBezierSegment Points="0,10 180,0 180, -100">
+                                </PolyBezierSegment>
+                                <PolyBezierSegment Points="180, -250 90, -250 100, 75">
+                                </PolyBezierSegment>
+                                <PolyBezierSegment Points="110, 500 30, 300 30, 300">
+                                </PolyBezierSegment>
+                            </PathFigure.Segments>
+                        </PathFigure>
+                    </PathGeometry.Figures>
+                </PathGeometry>
+            </GeometryGroup>
+            <!--<PathGeometry>
+                <PathGeometry.Figures>
+                    <PathFigure StartPoint="0, 100">
+                        <PathFigure.Segments>
+                            <PolyBezierSegment Points="170,85  -115, 20 60, 0 ">
+                            </PolyBezierSegment>
+                        </PathFigure.Segments>
+                    </PathFigure>
+                    <PathFigure>
+                        <PolyLineSegment Points="20, 0 20, 120"></PolyLineSegment>
+                    </PathFigure>
+                    <PathFigure>
+                        <PolyLineSegment Points="40, 0 40, 120"></PolyLineSegment>
+                    </PathFigure>
+                </PathGeometry.Figures>
+            </PathGeometry>-->
+           
+        </Path.Data>
+    </Path>
+</ContentPage>
